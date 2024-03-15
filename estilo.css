@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter Tight", serif;
+}
+
+
+
+body{
+    background-color: rgba(17, 1, 65, 1);
+}
+
+h1{
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    font-style: italic;
+    font-weight: 850;
+    font-size: 2.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--primary);
+    border-bottom-color: rgba(0, 255, 41, 1);
+    border-bottom-width: 0.2rem;
+    border-bottom-style: solid;
+    height: 5rem;
+}
+
+header img{
+    padding: 1rem;
+
+}
+
+nav {
+    height: 3rem;
+    border-bottom: var(--primary);
+    
+}
