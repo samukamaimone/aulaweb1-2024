@@ -1,47 +1,215 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap);
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: "Inter Tight", serif;
-}
-
-
-
-body{
-    background-color: rgba(17, 1, 65, 1);
-}
-
-h1{
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    font-style: italic;
-    font-weight: 850;
-    font-size: 2.5rem;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: var(--primary);
     border-bottom-color: rgba(0, 255, 41, 1);
     border-bottom-width: 0.2rem;
     border-bottom-style: solid;
+    background-color: rgba(17, 1, 65, 0.75);
     height: 5rem;
 }
 
-header img{
-    padding: 1rem;
+body {
+    background-image: url("Imagens/dust2_back_plat_s2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: cover;
+    height: 100%;
+}
 
+header h1 {
+    border-right: var(--primary);
+    border-right-color: rgba(0, 255, 41, 1);
+    border-right-width: 0.2rem;
+    border-right-style: solid;
+    padding: 0.8rem;
+}
+
+header h2 {
+    color: white;
+    margin-left: 1rem;
+}
+
+#img0{
+    padding-left: 75rem;
+}
+
+h1 a{
+    font-style: italic;
+    font-weight: 850;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 0.75rem;
+    margin-left: -0.3rem;
+}
+
+h1 a p{
+    text-align: right;
+    font-size: 0.9rem;
+    font-weight: 150;
+    margin-top: -0.70rem;
+}
+
+#busca{
+    background-color: rgba(255, 255, 255, 0.28);
+    border-radius: 5px;
+    width: 225px;
+}
+
+#txtBusca{
+    background-color: transparent;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 160px;
+}
+
+#imgBusca{
+    float: left;
+    padding: 2px;
 }
 
 nav {
-    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-bottom: var(--primary);
-    
+    border-bottom-color: rgba(0, 255, 41, 1);
+    border-bottom-width: 0.2rem;
+    border-bottom-style: solid;
+    background-color: rgba(65, 36, 151, 0.75);
+    height: 2.25rem;
+    color: white;
+    font-weight: 200;
+}
+
+.login p1{
+    color: white;
+    align-items: top;
+    border-right: var(--primary);
+    border-right-color: rgba(0, 255, 41, 1);
+    border-right-width: 0.2rem;
+    border-right-style: solid;
+    margin-right: 2rem;
+    padding-right: 2.5rem;
+    padding-top: 10rem;
+    padding-bottom: 1.3rem;
+}
+
+footer{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(17, 1, 65, 0.75);
+}
+
+main{
+    height: calc(100vh - 10.75rem);
+}
+
+main.index section{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section div{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+
+#iconedestaque{
+    height: 100%;
+    margin-top: 5rem;
+}
+
+#imgDestaque{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+
+#imgDestaque2{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 53rem;
+}
+
+#imgDestaque3{
+    position: absolute;
+    margin-top: 24.55rem;
+    margin-left: 53rem;
+}
+
+#linha-vertical {
+    height: 48.8rem;
+    border-right: 0.2rem solid rgba(0, 255, 41, 1);
+    padding-left: 65rem;
+}
+
+#ranking{
+    position: absolute;
+    margin-top: 8.5em;
+    margin-left: 85.45rem;
+}
+
+#botao{
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(65, 36, 151, 0.75);
+    font-weight: bold;
+    border: var(--primary);
+    border-color: rgba(0, 255, 41, 1);
+    border-width: 0.2rem;
+    border-style: solid;
+    margin-top: 41rem;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+footer p1{
+    color: white;
+    padding-left: 88rem;
+}
+
+footer p{
+    color: white;
+}
+
+#email{
+    margin-left: 0.3rem;
+}
+
+#discord{
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+#github{
+    margin-right: 0.5rem;
 }
