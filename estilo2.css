@@ -26,7 +26,7 @@ header{
 }
 
 body {
-    background-image: url("Imagens/dust2_back_plat_s2.jpg");
+    background-image: url("Imagens/overpass_back_long_s2.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: cover;
@@ -142,55 +142,38 @@ section div{
     padding-top: 5rem;
 }
 
-#iconedestaque{
-    height: 100%;
-    margin-top: 5rem;
-}
-
-#imgDestaque{
+iframe{
     position: absolute;
     margin-top: 10rem;
     margin-left: 3rem;
-}
-
-#imgDestaque2{
-    position: absolute;
-    margin-top: 10rem;
-    margin-left: 53rem;
-}
-
-#imgDestaque3{
-    position: absolute;
-    margin-top: 24.55rem;
-    margin-left: 53rem;
 }
 
 #linha-vertical {
     height: calc(100vh - 10.75rem);
     border-right: 0.2rem solid rgba(0, 255, 41, 1);
-    padding-left: 65rem;
+    padding-left: 55rem;
 }
 
-#ranking{
+.times{
     position: absolute;
-    margin-top: 10rem;
-    margin-left: 85.45rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 81.5rem;
 }
 
-#botao{
+.times h1{
     position: absolute;
-    font-size: 32px;
-    color: white;
-    text-decoration: none;
-    background-color: rgba(65, 36, 151, 0.75);
-    font-weight: bold;
-    border: var(--primary);
-    border-color: rgba(0, 255, 41, 1);
-    border-width: 0.2rem;
-    border-style: solid;
-    margin-top: 41rem;
-    margin-left: 3rem;
-    padding: 1rem;
+    margin-top: -5rem;
+    margin-left: 9.5rem;
+}
+
+.placar{
+    margin-left: -5.5rem;
+}
+
+#navi{
+    margin-right: 8rem;
 }
 
 footer p1{
