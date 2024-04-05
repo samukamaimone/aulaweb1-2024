@@ -158,7 +158,7 @@ iframe{
     position: absolute;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 81.5rem;
 }
 
@@ -168,8 +168,10 @@ iframe{
     margin-left: 9.5rem;
 }
 
-.placar{
-    margin-left: -5.5rem;
+#coroa{
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 1rem;
 }
 
 #navi{
